@@ -13,7 +13,7 @@ function Cabecalho() {
                 <CabecalhoLink to="./">
                     Home
                 </CabecalhoLink>
-                <CabecalhoLink to="./Favoritos">
+                <CabecalhoLink url="/favoritos">
                     Favoritos
                 </CabecalhoLink>
             </nav>

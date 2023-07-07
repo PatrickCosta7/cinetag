@@ -1,4 +1,13 @@
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto);
+    color: var(--branco);
+    border-radius: 15px;
+    padding: 1em;
 }

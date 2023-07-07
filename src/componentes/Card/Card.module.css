@@ -1,5 +1,5 @@
 .container{
-    padding: 0 0 1em 0;
+    padding: 0 0.5em 1em 0.5em;
     margin-top: .5em;
     width: 282px;
     background-color: var(--cinza);
@@ -19,6 +19,12 @@
 
 .favoritar {
     width: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--preto);
+    text-align: left;
 }
 
 

@@ -9,7 +9,7 @@ export default function Favoritos() {
     
     function valor(){
         if(favorito.length === 0){
-            return <h1 className={styles.aviso}> Nenhum filme foi favoritado </h1>
+            return <h1 className={styles.aviso}> Nenhum filme foi favoritado! </h1>
         } else {
             return (favorito.map((fav) => {
                 return <Card {...fav} key={fav.id} />
